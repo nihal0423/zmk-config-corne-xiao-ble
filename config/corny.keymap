@@ -42,10 +42,10 @@ ZMK_HOLD_TAP(hmr,
  &kp LCTRL    &kp Z   &kp X   &kp C            &kp V               &kp B                    &kp C_MUTE   &kp LEFT_COMMAND    &kp N                  &kp M                &kp COMMA   &kp DOT   &kp FSLH   &kp ESC   
                               &kp LALT         &mo 1               &kp SPACE                                                 &kp ENTER              &mo 2                &kp LEFT_SHIFT                                       
             >;
-
+/*
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp LS(TAB) TAB>;
+                <&inc_dec_kp LS(TAB) TAB>;*/
         };
 
         lower_layer {
@@ -61,8 +61,8 @@ ZMK_HOLD_TAP(hmr,
 &kp LSHFT   &kp F1        &kp F2        &kp F3              &kp F4        &kp F5        &bootloader  &bootloader  &kp F6    &kp F7     &kp F8    &kp F9     &kp F10  &kp F11
                                         &kp LALT            &trans        &trans                                  &kp RET   &kp SPACE  &kp LEFT_SHIFT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+/*
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;*/
         };
 
         raise_layer {
@@ -79,7 +79,7 @@ ZMK_HOLD_TAP(hmr,
                                 &kp LALT           &trans                   &trans                   &kp RET    &kp SPACE  &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+/*            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;*/
         };
     };
 };
