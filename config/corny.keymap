@@ -32,20 +32,6 @@ ZMK_HOLD_TAP(hmr,
 
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        bootloader_left {
-            bindings = <&bootloader>;
-            key-positions = <5 29>;
-        };
-
-        bootloader {
-            bindings = <&bootloader>;
-            key-positions = <6 32>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -76,10 +62,10 @@ ZMK_HOLD_TAP(hmr,
             //                    | GUI |     | SPC |                    | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                      &kp N6    &kp N7     &kp N8    &kp N9     &kp N0   &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &trans   &kp F12
-&kp LSHFT   &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &none  &none  &kp F6    &kp F7     &kp F8    &kp F9     &kp F10  &kp F11
-                                        &kp LGUI      &trans        &trans                      &kp RET   &kp SPACE  &kp LALT
+&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                  &kp N6    &kp N7     &kp N8    &kp N9     &kp N0   &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &trans   &kp F12
+&kp LSHFT   &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &bootloader  &bootloader  &kp F6    &kp F7     &kp F8    &kp F9     &kp F10  &kp F11
+                                        &kp LGUI      &trans        &trans                                  &kp RET   &kp SPACE  &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
