@@ -97,7 +97,7 @@
         default_layer {
             bindings = <
 &kp TAB       &kp Q  &kp W  &kp E     &kp R                        &kp T                                                            &kp Y                                &kp U                         &kp I           &kp O    &kp P     &kp BSPC
-&lt 3 ESCAPE  &kp A  &kp S  &kp D     &home_row_mod_left LSHIFT F  &home_row_mod_left G LEFT_COMMAND                                &home_row_mod_right H RIGHT_COMMAND  &home_row_mod_right RSHIFT J  &kp K           &kp L    &kp SEMI  &kp SQT
+&lt 3 ESCAPE  &kp A  &kp S  &kp D     &home_row_mod_left LSHIFT F  &home_row_mod_left LEFT_COMMAND G                                &home_row_mod_right RIGHT_COMMAND H  &home_row_mod_right RSHIFT J  &kp K           &kp L    &kp SEMI  &kp SQT
 &kp LCTRL     &kp Z  &kp X  &kp C     &kp V                        &kp B                              &kp C_MUTE  &kp LEFT_COMMAND  &kp N                                &kp M                         &kp COMMA       &kp DOT  &kp FSLH  &vim_save
                             &kp LALT  &td_mo_1                     &kp SPACE                                                        &kp ENTER                            &td_mo_2                      &kp LEFT_SHIFT
             >;
