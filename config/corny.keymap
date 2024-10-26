@@ -19,6 +19,15 @@
         };
     };
 
+    macros {
+        firefox: firefox {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE) &kp F &kp I &kp R &kp E &kp F &kp O &kp X &kp ENTER>;
+            label = "FIREFOX";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -69,6 +78,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        macros {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &firefox  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans                  &trans  &trans  &trans
+            >;
         };
     };
 };
