@@ -1,5 +1,7 @@
 # Corne xiao ble with two rotary encoders
 
+based on [friction's corne xiao](https://github.com/friction07/corne-xiao)
+
 
 ### Corne build
 ![corne-build-seeed-studio-xiao](images/corne-build-seeed-studio-xiao.jpeg)
@@ -14,3 +16,4 @@
 
 ### Symbol layer
 ![symbol_layer](images/symbol_layer.png)
+
