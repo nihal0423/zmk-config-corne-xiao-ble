@@ -17,6 +17,13 @@
             #binding-cells = <0>;
             bindings = <&mo 2>, <&to 2>;
         };
+
+        td_cmd_ctrl: td_cmd_ctrl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_CMD_CTRL";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND>, <&kp LCTRL>;
+        };
     };
 
     macros {
@@ -70,7 +77,7 @@
             bindings = <
 &kp TAB       &kp Q  &kp W  &kp E     &kp R     &kp T                                    &kp Y      &kp U     &kp I           &kp O    &kp P     &kp BSPC
 &lt 3 ESCAPE  &kp A  &kp S  &kp D     &kp F     &kp G                                    &kp H      &kp J     &kp K           &kp L    &kp SEMI  &kp SQT
-&kp LCTRL     &kp Z  &kp X  &kp C     &kp V     &kp B      &kp C_MUTE  &kp LEFT_COMMAND  &kp N      &kp M     &kp COMMA       &kp DOT  &kp FSLH  &vim_save
+&td_cmd_ctrl  &kp Z  &kp X  &kp C     &kp V     &kp B      &kp C_MUTE  &kp LEFT_COMMAND  &kp N      &kp M     &kp COMMA       &kp DOT  &kp FSLH  &vim_save
                             &kp LALT  &td_mo_1  &kp SPACE                                &kp ENTER  &td_mo_2  &kp LEFT_SHIFT
             >;
 
