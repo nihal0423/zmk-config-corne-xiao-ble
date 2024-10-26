@@ -145,10 +145,10 @@
 
         macros {
             bindings = <
-&trans  &trans      &trans  &trans   &trans    &trans                  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &alacritty  &trans  &docker  &firefox  &trans                  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &chrome  &trans    &trans  &trans  &trans  &navicat  &trans  &trans  &trans  &trans  &trans
-                            &trans   &trans    &trans                  &trans    &trans  &trans
+&trans  &trans      &trans                                 &trans   &trans    &trans                  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &alacritty  &mt LG(LS(NUMBER_5)) LS(LG(NUMBER_4))  &docker  &firefox  &trans                  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans                                 &chrome  &trans    &trans  &trans  &trans  &navicat  &trans  &trans  &trans  &trans  &trans
+                                                           &trans   &trans    &trans                  &trans    &trans  &trans
             >;
         };
     };
