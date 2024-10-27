@@ -125,8 +125,8 @@
 
             bindings = <
 &td_bt_next_prev  &trans  &kp N7  &kp N8  &kp N9  &none                             &none     &none     &none   &none      &none    &kp BSPC
-&bt BT_CLR        &trans  &kp N4  &kp N5  &kp N6  &trans                            &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &kp F12
-&trans            &kp N0  &kp N1  &kp N2  &kp N3  &kp F5  &bootloader  &bootloader  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &kp F11
+&bt BT_CLR        &trans  &kp N4  &kp N5  &kp N6  &kp N0                            &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &kp F12
+&trans            &trans  &kp N1  &kp N2  &kp N3  &kp F5  &bootloader  &bootloader  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &kp F11
                                   &trans  &to 0   &trans                            &trans    &trans    &trans
             >;
 
