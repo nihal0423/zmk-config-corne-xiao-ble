@@ -105,10 +105,10 @@
 
         default_layer {
             bindings = <
-&kp TAB       &kp Q  &kp W                       &kp E                          &kp R                        &kp T                                                            &kp Y                                &kp U                         &kp I                            &kp O                                &kp P     &kp BSPC
-&lt 3 ESCAPE  &kp A  &home_row_mod_left LCTRL S  &home_row_mod_left LEFT_ALT D  &home_row_mod_left LSHIFT F  &home_row_mod_left LEFT_COMMAND G                                &home_row_mod_right RIGHT_COMMAND H  &home_row_mod_right RSHIFT J  &home_row_mod_right RIGHT_ALT K  &home_row_mod_right RIGHT_CONTROL L  &kp SEMI  &kp SQT
-&kp LCTRL     &kp Z  &kp X                       &kp C                          &kp V                        &kp B                              &kp C_MUTE  &kp LEFT_COMMAND  &kp N                                &kp M                         &kp COMMA                        &kp DOT                              &kp FSLH  &vim_save
-                                                 &kp LALT                       &td_mo_1                     &kp SPACE                                                        &kp ENTER                            &td_mo_2                      &kp LEFT_SHIFT
+&kp TAB       &kp Q                          &kp W                          &kp E                          &kp R                              &kp T                                  &kp Y        &kp U                                &kp I                            &kp O                                &kp P                                   &kp BSPC
+&lt 3 ESCAPE  &home_row_mod_left LCTRL A     &home_row_mod_left LEFT_ALT S  &home_row_mod_left LSHIFT D    &home_row_mod_left LEFT_COMMAND F  &kp G                                  &kp H        &home_row_mod_right RIGHT_COMMAND J  &home_row_mod_right RSHIFT K     &home_row_mod_right RIGHT_ALT L      &home_row_mod_right RIGHT_CONTROL SEMI  &kp SQT
+&kp LCTRL     &kp Z                          &kp X                          &kp C                          &kp V                              &kp B    &kp C_MUTE  &kp LEFT_COMMAND  &kp N        &kp M                                &kp COMMA                        &kp DOT                              &kp FSLH                                &vim_save
+                                             &kp LALT                       &td_mo_1                       &kp SPACE                                                                 &kp ENTER    &td_mo_2                             &kp LEFT_SHIFT
             >;
 
             sensor-bindings =
