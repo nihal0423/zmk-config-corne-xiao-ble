@@ -63,13 +63,6 @@
 
             tapping-term-ms = <300>;
         };
-
-        td_3_dot: td_3_dot {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_3_DOT";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_3>, <&kp DOT>;
-        };
     };
 
     macros {
@@ -134,9 +127,9 @@
 
         num_layer {
             bindings = <
-&td_bt_next_prev  &trans  &trans  &trans  &trans  &none                             &trans  &kp N7  &kp N8  &kp N9     &none   &trans
-&bt BT_CLR        &trans  &trans  &trans  &trans  &trans                            &trans  &kp N4  &kp N5  &kp N6     &trans  &trans
-&trans            &trans  &trans  &trans  &trans  &trans  &bootloader  &bootloader  &kp N0  &kp N1  &kp N2  &td_3_dot  &trans  &trans
+&td_bt_next_prev  &trans  &trans  &trans  &trans  &none                             &trans  &kp N7  &kp N8  &kp N9  &none    &trans
+&bt BT_CLR        &trans  &trans  &trans  &trans  &trans                            &trans  &kp N4  &kp N5  &kp N6  &trans   &trans
+&trans            &trans  &trans  &trans  &trans  &trans  &bootloader  &bootloader  &kp N0  &kp N1  &kp N2  &kp N3  &kp DOT  &trans
                                   &trans  &to 0   &trans                            &trans  &trans  &trans
             >;
 
